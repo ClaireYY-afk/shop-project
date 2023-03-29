@@ -1,0 +1,13 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.smallproductimg.img
+{
+	height:92px;
+	margin: 10px 0;
+	cursor:pointer;
+	display:block;
+}

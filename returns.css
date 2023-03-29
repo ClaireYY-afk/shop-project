@@ -1,0 +1,13 @@
+.centered2 {
+	font-family: Avenir Black;
+	font-weight:700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: #013220;;
+  font-size: 5vw;
+}
+

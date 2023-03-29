@@ -1,0 +1,129 @@
+
+
+
+/* Primary Navigation */
+
+.navbar-custom {
+	padding: 10px;
+  background-color: #013220;
+ 	padding-left: 8%;
+ 	padding-right: 8%;
+ }
+
+.navbar-toggler {
+	color:#fff;
+}
+
+.navbar .navbar-brand {
+  color: #94128A;
+  font-size: 30px;
+}
+
+.navbar .navbar-brand:hover {
+  fill: #c7ddb5;
+  transform: scale(1.04);
+
+}
+
+.nav-item .nav-link {
+	--bs-navbar-nav-link-padding-x: 1.5rem;
+	color: white;
+	font-family: "Avenir", Avenir black, sans serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.dropdown-menu{
+	border-color: #ffffff00;
+	font-family: Avenir Medium;
+	background-color: oldlace;
+	font-size: 0.9em;
+	box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#nav-link-home {
+	color: white;
+}
+
+#nav-link-home:hover {
+	transform: scale(1.06);
+}
+
+.nav-link.dropdown-toggle:hover {
+	transform: scale(1.06);
+}
+
+.nav-link:hover {
+	transform: scale(1.06);
+}
+
+
+
+/* Nav Var Position */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+/* Search Bar Button */
+
+.btn-outline-success{
+	background-color: transparent;
+	--bs-btn-color: white;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
+
+
+
+
+/* Profile Icon */
+
+.fa-user {
+	color: white;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.fa-user:hover {
+	transform: scale(1.15);
+}
+
+
+
+.fa-cart-shopping {
+	color: white;
+}
+
+.fa-cart-shopping:hover {
+	transform: scale(1.15);
+}
+
+
+
+
+
+
+
+.container-fluid{
+	padding:0%;
+}
+
+

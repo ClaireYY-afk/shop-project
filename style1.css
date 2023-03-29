@@ -1,0 +1,92 @@
+
+
+.product-small-img img
+{
+	height:5vw;
+	margin: 10px 0;
+	cursor: pointer;
+	display: block;
+	opacity: 0.6;
+	padding-right:10px;
+}
+
+.product-small-img {
+	float:left;
+}
+
+.product-small-img img:hover{
+	opacity: 1;
+}
+
+.product{
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	position: relative;
+}
+
+.img-container img{
+	height:28vw;
+
+}
+
+.img-container{
+	float:right;
+	margin: 10px 0;
+}
+
+.imagegallerycontainer{
+float: left;
+}
+
+.descriptioncontainer{
+	float:left;
+	margin-top:5%;
+}
+
+#signupnow{
+	float: left;
+}
+
+
+.addtocartbtn{
+ position: relative;
+ padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #fa921c;
+	padding-left: 40px;
+  padding-right: 40px;
+    border: none;
+    border-radius: 100px;
+    font-family: "Avenir", Avenir black, sans serif;
+    font-weight: 700;
+    color: #2b2b2b;
+}
+
+.addtocartbtn:hover{
+	transform: scale(1.02);
+	background-color: #ff8c00;
+	color: white;
+
+}
+
+
+
+
+.footer{
+	margin-top:28.65%;
+}
+
+.row{
+	font-family: "Avenir", Avenir black, sans serif;
+	font-weight: 600;
+	padding-top: 1.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.col{
+	width:40%;
+	margin:0px;
+}
+

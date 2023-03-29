@@ -1,0 +1,455 @@
+
+
+/* Primary Navigation */
+
+.navbar-custom {
+	min-width: 100%;
+	padding: 10px;
+  background-color: #013220;
+ 	padding-left: 8%;
+ 	padding-right: 8%;
+ }
+
+.navbar-toggler {
+	color:#fff;
+}
+
+.navbar .navbar-brand {
+  color: #94128A;
+  font-size: 30px;
+}
+
+.navbar .navbar-brand:hover {
+  fill: #c7ddb5;
+  transform: scale(1.04);
+
+}
+
+.nav-item .nav-link {
+	--bs-navbar-nav-link-padding-x: 1.5rem;
+	color: white;
+	font-family: "Avenir", Avenir black, sans serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.dropdown-menu{
+	border-color: #ffffff00;
+	font-family: Avenir Medium;
+	background-color: oldlace;
+	font-size: 0.9em;
+	box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#nav-link-home {
+	color: white;
+}
+
+#nav-link-home:hover {
+	transform: scale(1.06);
+}
+
+.nav-link.dropdown-toggle:hover {
+	transform: scale(1.06);
+}
+
+.nav-link:hover {
+	transform: scale(1.06);
+}
+
+
+
+/* Nav Var Position */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+/* Search Bar Button */
+
+.btn-outline-success{
+	background-color: transparent;
+	--bs-btn-color: white;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
+
+
+
+
+/* Profile Icon */
+
+.fa-user {
+	color: white;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.fa-user:hover {
+	transform: scale(1.15);
+}
+
+
+
+.fa-cart-shopping {
+	color: white;
+}
+
+.fa-cart-shopping:hover {
+	transform: scale(1.15);
+}
+
+
+
+.container-fluid{
+	padding:0%;
+}
+
+
+
+/* All Row Styles */
+
+.row{
+	font-family: "Avenir", Avenir black, sans serif;
+	font-weight: 600;
+	padding-top: 1.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+.card{
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.card-img-top{
+	border-radius: 10px;
+}
+
+#card-img-top:hover{
+	transform: scale(1.03);
+}
+
+.card-title{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.card-text{
+	font-size: 14px;
+	font-weight: 500;
+	color: #4A4949;
+}
+
+.card-body{
+	padding-left:0%;
+	padding-top:8%;
+}
+
+#row1{
+	padding-top: 3%;
+	text-align: center;
+	padding-right:18%;
+	padding-left:18%;
+	background-color: white;
+}
+
+.breadcrumb{
+	padding-top: 3%;
+	padding-right:10%;
+	padding-left:10%;
+	--bs-breadcrumb-item-active-color: #6c757d;
+
+}
+
+
+
+#row2{
+	padding-top: 3%;
+	text-align: center;
+	padding-right:18%;
+	padding-left:18%;
+	padding-bottom:5%;
+	background-color: white;
+}
+
+#image{
+	width:100%;
+}
+
+.container-fluid{
+	position: relative;
+  	text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom:20%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-family: "Avenir", Avenir black, sans serif;
+}
+
+
+
+.row.align-items-start{
+	padding-left:0%;
+	padding-right:0%;
+}
+
+
+
+.col{
+	padding-left:0%;
+}
+
+
+
+.navbar-brand{
+	padding: 0%;
+}
+
+
+
+.nav.flex-column{
+	background-color: #2b2d2f;
+	padding-top:3%;
+	padding-left:10%;
+	padding-bottom:3%;
+}
+
+
+
+.nav-link.active{
+	padding-left: 0%;
+}
+
+
+
+.nav-link{
+	padding-left: 0%;
+}
+
+
+
+.container{
+	max-width:1440px;
+	background-color:transparent;
+	margin:auto;
+}
+
+
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+ul{
+	list-style:none;
+	padding-left: 0px;
+}
+
+
+
+.footer{
+	background-color:#242526;
+	padding-bottom: 5%;
+	padding-left: 0%;
+}
+
+.footer-col{
+	text-align: left;
+	width:25%;
+
+
+	
+}
+
+.footer-col h4{
+	font-family: "Avenir", Avenir black, sans serif;
+	font-size: 110%;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight:600;
+	position: relative;
+	display: inline-block;
+}
+
+.footer-col p{
+	color: #f5f5f5;
+	font-weight:400;
+
+}
+
+
+.footer-col h4:before{
+	content:;
+	position:absolute;
+	left: 0;
+	bottom:-10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width:50px;
+}
+
+.footer-col ul li:not(:last-child){
+	font-family: "Avenir", Avenir medium, sans serif;
+	font-size: 16px;
+	margin-bottom:10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+
+.footer-col ul li a:hover{
+	color:#ffffff;
+	padding-left: 8px;
+}
+
+@media(max-width 767px){
+	.footer-col{
+		width: 33.3%;
+		margin-bottom: 30px;
+	}
+}
+
+
+#footer{
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+
+.fa-instagram:hover{
+	transform: scale(1.07);
+
+}
+
+.fa-square-facebook:hover{
+	transform: scale(1.07);
+}
+
+
+.container {
+	padding-top: 4%;
+	padding-bottom: 1%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: "Avenir", Avenir black, sans serif;
+  position: relative;
+  text-align: center;
+  color: #013220;
+  min-width: 100%;
+	background-color:transparent;
+	margin:auto;
+}
+
+
+.container2 {
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-left: 18%;
+	padding-right: 18%;
+}
+
+
+
+
+
+
+.centered {
+	font-family: Avenir Black;
+	font-weight:700;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: white;
+  font-size: 5vw;
+}
+
+
+.centered1 {
+	font-family: Avenir Black;
+	font-weight:700;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: white;
+  font-size: 5vw;
+}
+
+
+
+#signupnow .img {
+  width: 100%;
+  height: auto;
+}
+
+#signupnow .btn {
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fa921c;
+	padding-left: 40px;
+    padding-right: 40px;
+
+    border: none;
+    border-radius: 100px;
+    font-family: "Avenir", Avenir black, sans serif;
+    font-weight: 700;
+    color: #2b2b2b;
+}
+
+#signupnow .btn:hover {
+	background-color: #ff8c00;
+	color: white;
+}
+
+@media screen and (max-width: 44px) {
+  .col-sm-4 {
+    width:100%;
+  }
+  .footer-col{
+  	max-width:400px;
+}
+
+
